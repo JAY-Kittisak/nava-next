@@ -38,32 +38,33 @@ const data = {
   user: {
     name: "shadcn",
     email: "m@example.com",
-    avatar: "/avatars/shadcn.jpg",
+    // avatar: "/avatars/shadcn.jpg",
+    avatar: "",
   },
   navMain: [
     {
       title: "Dashboard",
-      url: "#",
+      href: "/dashboard",
       icon: IconDashboard,
     },
     {
-      title: "Lifecycle",
-      url: "#",
+      title: "Claims",
+      href: "/claims",
       icon: IconListDetails,
     },
     {
       title: "Analytics",
-      url: "#",
+      href: "#",
       icon: IconChartBar,
     },
     {
       title: "Projects",
-      url: "#",
+      href: "#",
       icon: IconFolder,
     },
     {
       title: "Team",
-      url: "#",
+      href: "#",
       icon: IconUsers,
     },
   ],
@@ -72,45 +73,45 @@ const data = {
       title: "Capture",
       icon: IconCamera,
       isActive: true,
-      url: "#",
+      href: "#",
       items: [
         {
           title: "Active Proposals",
-          url: "#",
+          href: "#",
         },
         {
           title: "Archived",
-          url: "#",
+          href: "#",
         },
       ],
     },
     {
       title: "Proposal",
       icon: IconFileDescription,
-      url: "#",
+      href: "#",
       items: [
         {
           title: "Active Proposals",
-          url: "#",
+          href: "#",
         },
         {
           title: "Archived",
-          url: "#",
+          href: "#",
         },
       ],
     },
     {
       title: "Prompts",
       icon: IconFileAi,
-      url: "#",
+      href: "#",
       items: [
         {
           title: "Active Proposals",
-          url: "#",
+          href: "#",
         },
         {
           title: "Archived",
-          url: "#",
+          href: "#",
         },
       ],
     },
@@ -118,34 +119,34 @@ const data = {
   navSecondary: [
     {
       title: "Settings",
-      url: "#",
+      href: "#",
       icon: IconSettings,
     },
     {
       title: "Get Help",
-      url: "#",
+      href: "#",
       icon: IconHelp,
     },
     {
       title: "Search",
-      url: "#",
+      href: "#",
       icon: IconSearch,
     },
   ],
   documents: [
     {
       name: "Data Library",
-      url: "#",
+      href: "#",
       icon: IconDatabase,
     },
     {
       name: "Reports",
-      url: "#",
+      href: "#",
       icon: IconReport,
     },
     {
       name: "Word Assistant",
-      url: "#",
+      href: "#",
       icon: IconFileWord,
     },
   ],
